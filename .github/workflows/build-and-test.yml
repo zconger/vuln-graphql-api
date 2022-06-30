@@ -1,0 +1,13 @@
+# .github/workflows/build-and-test.yml
+name: Build and Test
+on:
+  push:
+jobs:
+  hawkscan:
+    name: Build and Test
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Clone repo
+        uses: actions/checkout@v3
+      - name: Build the app
+        run: docker-compose build

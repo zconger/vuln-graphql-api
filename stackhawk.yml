@@ -1,7 +1,7 @@
 # -- stackhawk configuration for vuln-graphql-api --
 app:
   # -- An applicationId obtained from the StackHawk platform. --
-  applicationId: 5d8a530e-0b6c-4ef9-a85d-289d69ba5b81 # (required)
+  applicationId: 60b41df4-ef5a-435d-b682-5658c5c3b1a7 # (required)
   # -- The environment for the applicationId defined in the StackHawk platform. --
   env: Development # (required)
   # -- The url of your application to scan --
